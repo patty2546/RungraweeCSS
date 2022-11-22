@@ -14,7 +14,7 @@ p{
 }
 
 body{
-    background-image: url("1.jpg");
+    background-image: url("2.jpg");
     background-repeat: no-repeat;
     background-position: right top;
     background-attachment: fixed;
@@ -77,4 +77,31 @@ div{
     display: inline-block;
     font-size: 20px;
     padding: 30px;
+}
+
+img{
+    border-radius: 50%;
+    width: 200px;
+    height: 300px;
+    object-fit: none;
+    opacity: 0.5;
+}
+
+div.hover{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(216, 84, 84);
+    transition: width 2s;
+}
+div.hover:hover{
+    width: 300px;
+    background-color: rgb(160, 243, 152);
+}
+
+.btu{
+    background-color: rgb(117, 117, 253);
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    cursor: pointer;
 }
